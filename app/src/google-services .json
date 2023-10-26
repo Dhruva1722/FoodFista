@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643121682482",
+    "project_id": "foodfista-12810",
+    "storage_bucket": "foodfista-12810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643121682482:android:ca9890bbe53918cd74842b",
+        "android_client_info": {
+          "package_name": "com.example.foodfista"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTDmAGvniVYYcxluRkxN2G6Dk2DR1ho8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
