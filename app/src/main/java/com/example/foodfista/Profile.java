@@ -36,9 +36,7 @@ public class Profile extends AppCompatActivity {
         tvName = findViewById(R.id.tv_name);
         btLogout = findViewById(R.id.bt_logout);
 
-
         firebaseAuth = FirebaseAuth.getInstance();
-
 
         FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
         if (firebaseUser != null) {
@@ -53,7 +51,7 @@ public class Profile extends AppCompatActivity {
             googleSignInClient.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
-                  
+
                     if (task.isSuccessful()) {
                         firebaseAuth.signOut();
                         Toast.makeText(getApplicationContext(), "Logout successful", Toast.LENGTH_SHORT).show();
